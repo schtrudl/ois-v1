@@ -13,3 +13,8 @@ print("OIS je zakon!")
 
 def izpis(v, g):
     print(f"Na nadmorska višina: {v} je gravitacijski pospešek {g}")
+
+
+v = eval(input("Vnesite nadmorsko višino: "))
+g = g_pospesek(v)
+izpis(v, g)
