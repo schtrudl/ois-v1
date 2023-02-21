@@ -6,3 +6,10 @@ R = 6.371e6
 
 def g_pospesek(v: float | int) -> float | int:
     return C * M / (R + v)**2
+
+
+print("OIS je zakon!")
+
+
+def izpis(v, g):
+    print(f"Na nadmorska višina: {v} je gravitacijski pospešek {g}")
